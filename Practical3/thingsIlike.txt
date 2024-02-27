@@ -1,6 +1,12 @@
-I like getting GitHub to work
-I like music
-I like pork pies
-I like crisps
-I like tea very much
-I like Radio 4
+I like tea.
+I like rice.
+I like chocolate.
+I like beef.
+I like noodles.
+I like CET-6.
+I like TOEFL.
+I like IBMS.
+I like IBI.
+I don't like ICMB.
+I like IFBS.
+I like Linux.
