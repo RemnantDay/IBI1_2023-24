@@ -1,5 +1,7 @@
 Hello. 
-My name is Rob.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+My name is Yuan Yizhou
+I am a now a freshman in iZJU.
+I like drinking soda and eating something sweet.
+I am now doing my project in IBI course, which I really enjoy.
+I like playing badminton and running.
+Also, I am quite interested in computer programming. I hope to be a qualified programmer in the future.
