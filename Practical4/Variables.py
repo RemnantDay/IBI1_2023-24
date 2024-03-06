@@ -16,9 +16,9 @@ else:
 
 X=True
 Y=False
-W=X or Y
+W=not(X==Y)
 print(W)
-# W is true.
+# W is true if X is True and Y is False
 #    X       Y         W
 #   True    True      False
 #   True    False     True
