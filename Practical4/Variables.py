@@ -19,3 +19,8 @@ Y=False
 W=X or Y
 print(W)
 # W is true.
+#    X       Y         W
+#   True    True      True
+#   True    False     True
+#   False   True      True
+#   False   False     False
