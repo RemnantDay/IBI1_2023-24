@@ -8,13 +8,6 @@ plt.pie(values,labels=keys,startangle=90,explode=[0,0,0.1,0,0,0])
 plt.show()
 plt.clf()
 
-###The following code is used to ask the user to input their own time and print out their own dictionary
-sleep=float((input("Your own Sleep hours:")))
-classes=float(input("Your own Classes hours:"))
-study=float(input("Your own Study hours:"))
-TV=float(input("Your own TV hours:"))
-music=float(input("Your own Music hours:"))
-newdic={"Sleep":sleep, "Classes":classes, "Study":study, "TVs":TV, "Music":music, "Other":24-sleep-classes-study-TV-music}
-print(newdic)
-activity=str(input("Input the activity you want to know (Sleep,Classes,Study,TVs,Music,Other):"))
-print("You spent",newdic[activity],"hours on",activity,"in average.")
+###The following code is used to ask the user to input the activity they want to learn
+activity=str(input("Input the activity you want to know (sleep,classes,study,TV,music,other):"))
+print("You spent",dic[activity],"hours on",activity,"in average.")
