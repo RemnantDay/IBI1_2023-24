@@ -7,6 +7,8 @@ print(city_CHN)
 import matplotlib.pyplot as plt
 plt.figure()
 plt.boxplot(city_UK,vert=True,showmeans=True,widths=0.1)
+plt.suptitle("The Boxplot of population in the UK",fontsize=15) #设置字体大小为15号字体
 plt.figure()
-plt.boxplot(city_CHN,vert=False,flierprops=)
+plt.boxplot(city_CHN,vert=False,showmeans=True)
+plt.suptitle("The Boxplot of population in China",fontsize=15)
 plt.show()
