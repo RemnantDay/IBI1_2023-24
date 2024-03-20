@@ -9,10 +9,10 @@ plt.show()
 plt.clf()
 
 ###The following code is used to ask the user to input their own time and print out their own dictionary
-sleep=input("Sleep hours:")
-classes=input("Classes hours:")
-study=input("Study hours:")
-TV=input("TV hours:")
-music=input("Music hours:")
+sleep=float((input("Sleep hours:")))
+classes=float(input("Classes hours:"))
+study=float(input("Study hours:"))
+TV=float(input("TV hours:"))
+music=float(input("Music hours:"))
 newdic={"Sleep":sleep, "Classes":classes, "Study":study, "TVs":TV, "Music":music, "Other":24-sleep-classes-study-TV-music}
 print(newdic)
