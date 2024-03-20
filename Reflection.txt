@@ -1,2 +1,4 @@
 During this course, I have learnt version control, how to navigate Unix-like systems.
 I met many difficulties at the beginning as I was not famaliar with the content taught in class. Therefore, I read the slides again and again, trying to understand key points there.
+Fortunately, under Professor ZHANG's guidance, I successfully understood all the steps. Then I did all the steps by myself, which was quite interesting and meaningful.
+This story tells us never give up.
