@@ -24,6 +24,9 @@ print(np.mean(china_data_2019.loc[:,"DALYs"]))  #ATTENTION: This line shows the 
 # ! From the result of line 22 and line 23, I can see 2019 is below the mean.
 plt.plot(china_data.Year, china_data.DALYs, "b+")  #The data points shown in the plot have the shape "+"
 plt.xticks(china_data.Year,rotation=-90)       #This line rotates the x labels 90 degrees clockwise
+plt.xlabel('Year')
+plt.ylabel('DALYs')
+plt.title('The DALYs in China')
 #plt.plot(china_data.Year, china_data.DALYs, "r+")
 #plt.plot(china_data.Year, china_data.DALYs, "bo")
 plt.show()
