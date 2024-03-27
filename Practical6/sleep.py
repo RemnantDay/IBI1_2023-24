@@ -10,4 +10,8 @@ plt.clf()
 
 ###The following code is used to ask the user to input the activity they want to learn
 activity=str(input("Input the activity you want to know (From 'sleep','classes','study','TV','music','other'):"))
+<<<<<<< HEAD
 print("You spent",dic[activity],"hours on",activity,"during an average day.")   # output the results
+=======
+print("You spent",dic[activity],"hours on",activity,"during an average day.")   # output the results
+>>>>>>> 98a7465c3ff0673fff8b938969f839cd1020917c

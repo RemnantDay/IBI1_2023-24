@@ -19,6 +19,12 @@ plt.title("city size in the UK") # add a title to the figure
 plt.bar(x1, city_UK1,color=color) # create the bar plot
 plt.figure()
 plt.xticks(x,x2)
+plt.xlabel("city in China") # create x label name
+plt.ylabel("population(millions)") # create y label name
+plt.title("city size in China") # add a title to the figure
+plt.bar(x2,city_CHN1,color=color)  # create the bar plot
+plt.show()
+plt.xticks(x,x2)
 plt.xlabel("city in China")
 plt.ylabel("population(millions)")
 plt.title("city size in China")
