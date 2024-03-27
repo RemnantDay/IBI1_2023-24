@@ -1,6 +1,6 @@
 My question is: How has the relationship between the DALYs in China and the UK changed over time, more similar or less similar?
 
-It starts at line 31 in the code.
+It starts at line 34 in the code.
 
 Result: From the plot we can see that the relationship between the DALYs in China and the UK are more similar.
 
