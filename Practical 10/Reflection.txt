@@ -1,0 +1,3 @@
+This practical seems difficult and challenging. However, I learn a lot from it.
+In the SIR.py and SIR_vaccination.py, I learned how to use np.random.choice to number each person and use it to show the state of people (susceptible, infected, recovered). I think this kind of thinking is quite important and will be used again in the future.
+For the spatial SIR.py, I really enjoyed using double circulation to acheieve my goal, that is, to show how people recover. This seems quite intersting.
