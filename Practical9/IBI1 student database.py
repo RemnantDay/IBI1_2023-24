@@ -8,7 +8,7 @@ class students:
         self.exam_score = exam_score
 
     def show_details(self):
-        return f"{self.name}, {self.major}, Code portfolio score: {self.code_portfolio_score}, Group project score: {self.group_project_score}, Exam score: {self.exam_score}"
+        return f"Name: {self.name}, Major: {self.major}, Code portfolio score: {self.code_portfolio_score}, Group project score: {self.group_project_score}, Exam score: {self.exam_score}"
 
 # An example of the usage of this class 
 student_A = students("Yuan Yizhou", "BMI", 100, 99.5, 100)
