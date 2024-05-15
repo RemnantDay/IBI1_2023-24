@@ -7,6 +7,7 @@ outbreak = np.random.choice(range(100),2)  # Randomly select the x and y coordin
 population[outbreak[0],outbreak[1]] = 1 # Address the person with those exact coordinates in our population array and change their status from 0 (susceptible) to 1 (infected).
 plt.figure(figsize =(6,4), dpi=150)   # Determine the size of the picture
 plt.imshow(population,cmap='viridis' , interpolation='nearest')
+plt.title("time=0")
 plt.show()        # Show the plot
 
 N=10000            # Population Size
@@ -37,10 +38,7 @@ for t in range(101):
         if value==1:  # To test whether the person is infected
             population[i,j] = np.random.choice([1,2], 1, p=[1-gamma, gamma])[0]  # If infected, there is a certain chance that he can recover
 
-    if t==0:        # get the plot in time=0
-        plt.imshow(population , cmap='viridis', interpolation='nearest')
-        plt.title("time=0")
-        plt.show()
+
     if t==10:   # get the plot in time=10
         plt.imshow(population , cmap='viridis', interpolation='nearest')
         plt.title("time=10")
