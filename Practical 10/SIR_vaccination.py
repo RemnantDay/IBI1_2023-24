@@ -1,4 +1,5 @@
-# import necessary libraries
+# import necessary libraries  # ATTENTION: there is chance that the plot is 0 all the time. If that happens, please try it again and it will output correct results!
+import numpy as np
 import numpy as np
 import matplotlib .pyplot as plt
 import random
