@@ -1,5 +1,5 @@
 import re
-user_repeat = input("Enter the duplicated sequence you want to explore（'GTGTGT' or 'GTCTGT'）: ") # Ask the user to input duplicated sequence
+user_repeat = input("Enter the duplicated sequence you want to explore（Please input 'GTGTGT' or 'GTCTGT'）: ") # Ask the user to input duplicated sequence
 output_filename = f"{user_repeat}_duplicate_genes.fa"        # Create the new file
 with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r') as a:      # Read the original file
     lines = a.readlines()
@@ -14,7 +14,7 @@ with open(output_filename, 'w') as out:        # Write the output file
             if gene and current_gene_name:   # If a gene is already being processed, output the information of the previous gene
                 repeat_count = current_gene_sequence.count(user_repeat)      # Calculate the number of duplicated gene
                 out.write(f">{current_gene_name} \n")    # Output the gene name on the first line
-                out.write(f"{repeat_count}  {current_gene_sequence} \n")  # Output the duplicated times and the original DNA sequence
+                out.write(f"The number of instances is {repeat_count}  {current_gene_sequence} \n")  # Output the duplicated times and the original DNA sequence
             gene = True          # Start the next gene (flag)
             current_gene_name = line.strip()[1:].split(' ')[0]     # Read the gene name (delete ">") 
             current_gene_sequence = ""
