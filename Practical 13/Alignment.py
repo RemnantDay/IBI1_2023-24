@@ -50,21 +50,21 @@ edit_distance1=0
 for i in range(len(seq_human)):
     if seq_human[i] != seq_mouse[i]:
         edit_distance1 += 1             # if there is difference, add 1
-identical_percentage1 = (len(seq_human)-edit_distance1)/len(seq_human)*100
+identical_percentage1 = (len(seq_human)-edit_distance1)/len(seq_human)*100  # Calculate the identical percentage of human and mouse sequence
 print("The identical percentage of human and mouse sequence is", identical_percentage1,"%.")
 
 edit_distance2=0
 for i in range(len(seq_human)):
     if seq_human[i] != seq_rat[i]:
-        edit_distance2 += 1
-identical_percentage2 = (len(seq_human)-edit_distance2)/len(seq_human)*100
+        edit_distance2 += 1        # if there is difference, add 1
+identical_percentage2 = (len(seq_human)-edit_distance2)/len(seq_human)*100  # Calculate the identical percentage of human and rat sequence
 print("The identical percentage of human and rat sequence is", identical_percentage2,"%.")
 
 edit_distance3=0
 for i in range(len(seq_mouse)):
     if seq_mouse[i] != seq_rat[i]:
-        edit_distance3 += 1
-identical_percentage3 = (len(seq_mouse)-edit_distance3)/len(seq_mouse)*100
+        edit_distance3 += 1        # if there is difference, add 1
+identical_percentage3 = (len(seq_mouse)-edit_distance3)/len(seq_mouse)*100    # Calculate the identical percentage of mouse and rat sequence
 print("The identical percentage of mouse and rat sequence is", identical_percentage3,"%.")
 
 #From the results, we can see that the sequence of mouse and the sequence of rat are most closely related
