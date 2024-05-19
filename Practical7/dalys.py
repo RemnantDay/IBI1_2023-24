@@ -26,7 +26,7 @@ china_data = dalys_data.iloc[China, :]
 print('The mean DALYs in China:',np.mean(dalys_data.loc[China,"DALYs"]))  #ATTENTION: This line shows the mean DALYs in China over time (30677)
 china_data_2019=china_data[china_data["Year"]==2019]  
 print("The mean DALYs in China in 2019 (attention: in 2019!):",np.mean(china_data_2019.loc[:,"DALYs"]))  #ATTENTION: This line shows the mean DALYs in China in 2019 (22270)
-# ! From the result of line 22 and line 23, I can see the DALYs in China in 2019 was less than the mean.
+# ! From the result, I can see the DALYs in China in 2019 was less than the mean.
 print("The DALYs in China in 2019 was less than the mean.")
 plt.plot(china_data.Year, china_data.DALYs, "b+")  #The data points shown in the plot have the shape "+"
 plt.xticks(china_data.Year,rotation=-90)       #This line rotates the x labels 90 degrees clockwise
