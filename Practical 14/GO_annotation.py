@@ -7,7 +7,7 @@ import xml.sax
 start_DOM= time.perf_counter()                   # Start to calculate time needed for DOM way
 DOMTree = xml.dom.minidom.parse("go_obo.xml")
 collection = DOMTree.documentElement
-terms = collection.getElementsByTagName('term')
+terms = collection.getElementsByTagName('term')    # get 'term' by tag name
 biological_process = 0
 molecular_function = 0
 cellular_component = 0
@@ -38,7 +38,7 @@ plt.bar(x,y) # create the bar plot
 plt.show()
 
 ### SAX way ###
-start_SAX = time.perf_counter()
+start_SAX = time.perf_counter()    # Start to calculate time needed for SAX way
 
 
 class TermCounter(xml.sax.ContentHandler):
@@ -76,8 +76,8 @@ print('The number of term biological_process is (by SAX way):', namespace_counts
 print("The number of term molecular_function is (by SAX way):", namespace_counts['molecular_function'])
 print('The number of term cellular_component is (by SAX way):', namespace_counts['cellular_component'])
 
-end_SAX = time.perf_counter()
-print(' The time for SAX method is:',end_SAX-start_SAX,'s')
+end_SAX = time.perf_counter()    # Finish to calculate time needed for SAX way
+print(' The time for SAX method is:',end_SAX-start_SAX,'s')     # Calculate the time needed for SAX way
 print("From my computer, it can be seen that SAX API is faster.")  
 
 # From my computer, SAX API is faster than DOM.
