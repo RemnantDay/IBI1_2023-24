@@ -1,5 +1,5 @@
 def name_JamesBond(x):
-    y=x+18
+    y=x+18               # Calculate the age when the person turned 18.
     if 1973<=y<=1986:
         print("The actor is Roger Moore.")
     if 1987<=y<=1994:
@@ -14,3 +14,5 @@ x=int(input("The year you born:"))
 name_JamesBond(x)
 
 # The function is called "name_JamesBond" where you need to input the year you born (an integer)
+# Example (please delete # at line 18)
+# name_JamesBond(1988)
